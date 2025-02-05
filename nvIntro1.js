@@ -44,7 +44,7 @@ class TourConfig {
     next: '#next',
     volume: '#volume',
     transcript :'#transcript-link',
-    help : 'link-right-1'
+    help : '#link-right-1'
   };
 
   static defaultSteps = isMobile() 
@@ -325,15 +325,15 @@ class TranslationManager {
     },
     help: {
         en: 'The playback controls help you navigate through the course by allowing you to play, pause, or resume the content at your own pace.',
-    ar: 'تساعدك عناصر التحكم في التشغيل على التنقل عبر الدورة التدريبية من خلال السماح لك بتشغيل المحتوى أو إيقافه مؤقتًا أو استئنافه وفقًا لوتيرتك الخاصة.',
-    ur: 'پلے بیک کنٹرولز آپ کو کورس کے مواد میں نیویگیٹ کرنے میں مدد دیتے ہیں، جس سے آپ کو مواد چلانے، روکنے یا دوبارہ شروع کرنے کی سہولت ملتی ہے۔',
-    nl: 'De afspeelknoppen helpen je bij het navigeren door de cursus door je in staat te stellen de inhoud af te spelen, te pauzeren of te hervatten op je eigen tempo.',
-    es: 'Los controles de reproducción te ayudan a navegar por el curso permitiéndote reproducir, pausar o reanudar el contenido a tu propio ritmo.',
-    fr: 'Les commandes de lecture vous aident à naviguer dans le cours en vous permettant de lire, mettre en pause ou reprendre le contenu à votre propre rythme.',
-    zh: '播放控制帮助您浏览课程，使您可以按照自己的节奏播放、暂停或恢复内容。',
-    pt: 'Os controles de reprodução ajudam você a navegar pelo curso, permitindo que você reproduza, pause ou retome o conteúdo no seu próprio ritmo.',
-    ro: 'Controalele de redare te ajută să navighezi prin curs, permițându-ți să redai, să pui pauză sau să reiei conținutul în ritmul tău.',
-    pl: 'Kontrolki odtwarzania pomagają w nawigacji po kursie, umożliwiając odtwarzanie, wstrzymywanie lub wznawianie treści we własnym tempie.'
+        ar: 'تساعدك عناصر التحكم في التشغيل على التنقل عبر الدورة التدريبية من خلال السماح لك بتشغيل المحتوى أو إيقافه مؤقتًا أو استئنافه وفقًا لوتيرتك الخاصة.',
+        ur: 'پلے بیک کنٹرولز آپ کو کورس کے مواد میں نیویگیٹ کرنے میں مدد دیتے ہیں، جس سے آپ کو مواد چلانے، روکنے یا دوبارہ شروع کرنے کی سہولت ملتی ہے۔',
+        nl: 'De afspeelknoppen helpen je bij het navigeren door de cursus door je in staat te stellen de inhoud af te spelen, te pauzeren of te hervatten op je eigen tempo.',
+        es: 'Los controles de reproducción te ayudan a navegar por el curso permitiéndote reproducir, pausar o reanudar el contenido a tu propio ritmo.',
+        fr: 'Les commandes de lecture vous aident à naviguer dans le cours en vous permettant de lire, mettre en pause ou reprendre le contenu à votre propre rythme.',
+        zh: '播放控制帮助您浏览课程，使您可以按照自己的节奏播放、暂停或恢复内容。',
+        pt: 'Os controles de reprodução ajudam você a navegar pelo curso, permitindo que você reproduza, pause ou retome o conteúdo no seu próprio ritmo.',
+        ro: 'Controalele de redare te ajută să navighezi prin curs, permițându-ți să redai, să pui pauză sau să reiei conținutul în ritmul tău.',
+        pl: 'Kontrolki odtwarzania pomagają w nawigacji po kursie, umożliwiając odtwarzanie, wstrzymywanie lub wznawianie treści we własnym tempie.'
     }
     
   };
